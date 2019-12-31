@@ -223,7 +223,7 @@ pub const STATE_ADD:    StateAction = 1;
 pub const STATE_TOGGLE: StateAction = 2;
 
 pub struct Connection {
-	xcb:  xcb::Connection,
+	pub xcb:  xcb::Connection,
 	ewmh: xcb_ewmh_connection_t,
 }
 
